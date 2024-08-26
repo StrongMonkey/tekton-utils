@@ -1,4 +1,4 @@
-FROM registry.suse.com/bci/golang:1.22 as builder
+FROM registry.suse.com/bci/golang:1.23 as builder
 
 ENV TEKTON_TAG v0.41.0
 ENV GO111MODULE off
